@@ -1,0 +1,214 @@
+@charset "utf-8";
+
+body {
+    margin: 10;
+    padding: 0;
+      color: #101010;
+      background-image: url(../画像/images.jfif);
+
+}
+
+section li {
+    color: #e4f9c6;
+    width: 280px;
+    margin-top: 100px;
+    list-style: none;
+    line-height: 1.0;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    float: right;}
+    section li a:visited{color: #e4f9c6;}
+    section li a:hover{color: #60ba00;font-weight: bold;
+        text-decoration: none;}
+section{
+    background-color: #e4f9c6;
+}
+section a { color: chartreuse;
+text-decoration: none;}
+section a:visited{ color: #507720;}
+section a:hover{ 
+    color: #60ba00;
+    font-weight: bold;
+    text-decoration: none;
+}
+header h1 img {
+    width: 400px;
+    height: 150px;
+    float: left;
+    margin: 10;
+    padding: 10;
+}
+header h1{
+    margin-left: 10px;
+    width: 220px;
+    text-align: center;
+    background-color: #fff}
+#profile{
+    width: 900px;
+   background-color: #e4f9c6;
+    margin-left: 50px;
+}
+#profile h1{
+    width: 400px;
+  font-size: 35px;
+  text-align: center;
+  background-color: #0a5658;
+  color: #fff;
+}
+#profile h2{
+    width: 300px;
+   
+    font-size: 30px;
+    margin-left: 5px;
+    margin-right: 0;
+}
+#profile p{
+    width: 650px;
+    padding: 5px;
+    font-size: 25px;
+}
+#profile li img {
+    width: 600px;
+    height: 700px;
+    margin-top: 0;
+}
+#profile li iframe{
+    width: 400px;
+    height: 450px;
+margin-right: 0px;
+}
+nav{
+    width: 900px;
+    clear: both;
+    overflow: hidden;
+    margin: 20px auto;
+   
+}
+nav li {
+    width: 195px;
+    list-style: none;
+    float: left;
+    margin-right: 1px;
+    text-align: center;
+}
+    
+nav li a{
+    color: whitesmoke;
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    background-color: #39506a;
+}
+nav li.current a {
+    background-color: #0c498f;
+}
+nav li a:hover{
+    color: #d0d0d0;
+font-weight: lighter;
+background-color: #2fcacf;
+transition: background-color 0.15s linear;
+}
+
+#comic1  li{
+    width: 420px;
+    height: 500px;
+    margin-right: 0;
+    list-style: none;
+    border: solid 1px rgba(171, 255, 102, 0.562);
+    float: left;
+background-color: rgba(170, 221, 102, 0.473);
+}
+#comic1 li img {
+    width: 300px;
+    height: 400px;
+    margin: 25px 50px 0 50px;
+    
+}
+#comic1 li p{
+    margin-left: 50px;
+    float: bottom;
+text-align: center;
+color: #000;
+}
+
+div li p {
+    margin: 0 0 0 20px;
+    max-width: 300px;
+    background-color: #e4f9c6;
+}
+
+#game li {
+width: 430px;
+height: 440px;
+border: solid 1px rgba(171, 255, 102, 0.562);
+background-color: rgba(170, 221, 102, 0.473);
+float: left;
+list-style: none;
+text-align: center;
+font-size: 30px;
+margin-bottom: 2px;
+}
+#game li.yoko img {
+    width: 400px;
+    height: 250px;
+    margin-top: 20px;
+}
+#game li.tate img {
+    width: 300px;
+    height: 380px;
+    margin-left: 50px;
+    
+}
+#game li img{
+    width: 380px;
+    height: 380px;
+    margin-left: 20px;
+}
+#game li p {
+    width: 300px;
+    text-align: center;
+    margin-left: 50px;
+}
+#game li.ff{
+    font-size: 20px;
+}
+
+section footer{
+    margin-top: 0;
+}
+#inf {
+    margin-top: 0;
+}
+footer{
+    
+    margin-top: 1100px;
+    margin-bottom: 0;
+    text-align: center;
+    background-color: #fefefe;
+}
+footer li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+   display: inline;
+   border-left: solid 1px #111111;
+   margin-left: 8px;
+   padding-left: 8px;
+   font-size: smaller;
+}
+footer li:last-child {
+    border-right: solid 1px #111111;
+    padding: 0 10px;
+}
+footer li a { color: chartreuse;
+    text-decoration: none;}
+footer li a:visited{ color: #507720;}
+footer li a:hover{ 
+        color: #60ba00;
+        font-weight: bold;
+        text-decoration: none;
+        background-color: #000;
+        transition: background-color 0.2s ease-in-out;
+    }
+ 
